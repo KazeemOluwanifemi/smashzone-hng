@@ -36,3 +36,9 @@ code {
   font-weight: 400;
   gap: 42.5px;
 }
+
+.icons{
+  width: 156px;
+  height: 24px;
+  gap: 42px;
+}

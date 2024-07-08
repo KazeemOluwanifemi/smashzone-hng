@@ -45,6 +45,9 @@ module.exports = {
         'header-height': '92px',
         'nav-height': '24px'
       },
+      gap:{
+        'navbar-gap': '652px',
+      }
     },
   },
   plugins: [],
