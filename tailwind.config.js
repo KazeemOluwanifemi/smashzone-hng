@@ -12,7 +12,7 @@ module.exports = {
         'brand-yellow-light': '#FCD269',
         'brand-yellow-lighter': '#FDE19B',
         'brand-yellow-plain': '#FEF0CD',
-        'dark-three': '#FFFFFF',
+        'dark-three': '#212121',
         'dark-two': '#3B3B3B',
         'dark-one': '#6E6E6E',
         'light-grey': '#A1A1A1',
@@ -23,6 +23,9 @@ module.exports = {
       fontFamily: {
         Playfair: "'PlayfairDisplay', 'serif'",
         Exo: "'Exo2', 'sans-serif'"
+      },
+      width:{
+        'button-width': '241px'
       }
     },
   },
