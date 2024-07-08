@@ -1,6 +1,7 @@
 import React from 'react';
-import Button from './components/buttonYellow';
-import ButtonDark from './components/buttonDark';
+// import Button from './components/buttonYellow';
+// import ButtonDark from './components/buttonDark';
+import Navbar from './components/navbar';
 
 // import ReactDOM from 'react-dom';
 
@@ -10,8 +11,7 @@ export default function App() {
     <main>
 
     <div>
-      <Button>BUTTON</Button>
-      <ButtonDark>Another Button</ButtonDark>
+      <Navbar></Navbar>
     </div>
   
     </main>
