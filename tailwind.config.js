@@ -21,12 +21,30 @@ module.exports = {
         'white': '#FFFFFF'
       },
       fontFamily: {
-        Playfair: "'PlayfairDisplay', 'serif'",
-        Exo: "'Exo2', 'sans-serif'"
+        Playfair: ['PlayfairDisplay', 'serif'],
+        Exo: [
+          'Exo2',
+          'sans-serif',
+          {
+            url: 'https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap',
+          },
+        ]
+        // Exo: ['Exo2-Regular', 'sans-serif']
       },
       width:{
-        'button-width': '241px'
-      }
+        'header-width': '1440px',
+        'button-width': '241px',
+        'icon-width': '14px',
+        'logo-width': '60px',
+        'nav-width' : '472px',
+        'nav-list-width': '18px'
+      },
+      height:{
+        'icon-height': '14px',
+        'logo-height': '60px',
+        'header-height': '92px',
+        'nav-height': '24px'
+      },
     },
   },
   plugins: [],

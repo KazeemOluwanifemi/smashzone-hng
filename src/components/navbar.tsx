@@ -6,24 +6,34 @@ import React, { ReactNode } from 'react';
 
 
 export default function Navbar(){
-    return <div className='bg-dark-two place-content-evenly'>
-       <div className='logo-nd-nav-options flex place-content-evenly'>
-        <img src={process.env.PUBLIC_URL + '/Logotype&LogoMark.png'} alt="logotype and logomark" />
-        <div className='text-white font-Exo font-medium text-base flex place-content-evenly'>
-            <p>RACKETS</p>
-            <p>BAGS</p>
-            <p>APPAREL</p>
-            <p>BALLS</p>
-            <p>GEARS</p>
-        </div>
+    return <header className='bg-dark-two w-max-full px-20 h-header-height flex items-center'>
+        <div className='logo-nd-nav-options flex'>
+            <div className='flex nav-bar'>
+                <div className='flex logo-size my-0-0 justify-center  items-center'>
+                    <img src={process.env.PUBLIC_URL + '/logo.png'} alt="logotype and logomark" className='w-logo-width   h-logo-height'/>
+                    <h2 className='text-brand-yellow font-Playfair
+                    font-bold '>SmashZone</h2>
+                </div>
+        
 
-        <div className='icons flex place-content-around'>
-        <img src='/public/user.png alt="user-icon"' alt='user-icon' />
-        <img src={process.env.PUBLIC_URL + '/public/user.png'} alt="user-icon" />
-        <img src={process.env.PUBLIC_URL + '/public/search.png'} alt="search-icon" />
-        <img src={process.env.PUBLIC_URL + '/public/shopping-bag-03.png'} alt="shopping-bag-icon" />
-        </div>
+                <nav className='text-white font-Exo       place-content-evenly justify-between'>
+                 <ul className='flex  nav-list '>
+                    <li className='max-w-fit'><button>RACKETS</button></li>
+                    <li className='max-w-fit'><button>BAGS</button></li>
+                    <li className='max-w-fit'><button>APPAREL</button></li>
+                    <li className='max-w-fit'><button>BALLS</button></li>
+                    <li className='max-w-fit'><button>GEARS</button></li>
+                 </ul>
+                </nav>
 
+            </div>
+            
+
+            <div className='w-icon-width h-icon-height'>
+                <img src={process.env.PUBLIC_URL + '/user-white.png'} alt="user-icon" />
+                <img src={process.env.PUBLIC_URL + '/search-solid-white.png'} alt="search-icon" />
+                <img src={process.env.PUBLIC_URL + '/shopping-bag-03-white.png'} alt="shopping-bag-icon" />
+            </div>
         </div>
-    </div>
+    </header>
 }

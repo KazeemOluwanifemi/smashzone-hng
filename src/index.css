@@ -15,3 +15,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.logo-size{
+  font-size: 32px;
+  line-height: 40px;
+  width: 250px;
+  height: 60px;
+  gap: 18px;
+}
+
+.nav-bar{
+  width: 600px;
+  height: 60px;
+  gap: 100px;
+}
+
+.nav-list{
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  gap: 42.5px;
+}
