@@ -42,3 +42,23 @@ code {
   height: 24px;
   gap: 42px;
 }
+
+.footer-props{
+  height: 474px;
+  padding: 40px;
+  gap: 70px;
+  top: 20px;
+  left: 20px;
+}
+
+.products{
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+.products-ls{
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+}

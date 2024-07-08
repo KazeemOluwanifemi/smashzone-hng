@@ -37,16 +37,22 @@ module.exports = {
         'icon-width': '14px',
         'logo-width': '60px',
         'nav-width' : '472px',
-        'nav-list-width': '18px'
+        'nav-list-width': '18px',
+        'products-width': '280px'
       },
       height:{
         'icon-height': '14px',
         'logo-height': '60px',
         'header-height': '92px',
-        'nav-height': '24px'
+        'nav-height': '24px',
+        'footer-height': '264px',
+        'products-height': '240px',
+        'products-listing-h': '184px'
       },
       gap:{
         'navbar-gap': '652px',
+        'footer-gap1': '42px',
+        'products-gap': '10px'
       }
     },
   },
