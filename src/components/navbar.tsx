@@ -1,10 +1,5 @@
 import React from 'react';
 
-// interface navbarItems{
-//     children: ReactNode;
-// }
-
-
 export default function Navbar(){
     return <header className='bg-dark-two px-20 h-header-height flex items-center '>
         <div className='logo-nd-nav-options flex items-center gap-navbar-gap'>
