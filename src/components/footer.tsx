@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import React from 'react';
 
 export default function Footer(){
     return <footer className='bg-brand-yellow w-max-full footer-props'>
