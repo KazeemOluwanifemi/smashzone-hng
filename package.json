@@ -15,10 +15,11 @@
   "scripts":
   {
     "start": "react-scripts start",
-    "build": "react-scripts build && tsc",
+    "build": "react-scripts build && tsc && vercel build --ignore-errors",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "vercel": "vercel build"
   },
   "publicUrl": "/",
 
