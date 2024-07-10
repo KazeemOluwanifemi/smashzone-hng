@@ -29,7 +29,6 @@ module.exports = {
             url: 'https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap',
           },
         ]
-        // Exo: ['Exo2-Regular', 'sans-serif']
       },
       width:{
         'header-width': '1440px',
